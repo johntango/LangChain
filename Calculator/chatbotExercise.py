@@ -11,7 +11,7 @@ def api_calling(prompt):
         max_tokens=1024,
         n=1,
         stop=None,
-        temperature=0.7,
+        temperature=0.2,
     )
     message = completions.choices[0].text
     return message
